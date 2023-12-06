@@ -1,0 +1,24 @@
+npm init -y                                     //cria o arquivo packege.json
+npm install --save-dev webpack webpack-cli      //instalação de pacotes(pasta node-modules)
+criar pasta src => criar arquivo index.js       //
+npx webpack                                     //cria o build do webpack (pasta dist)
+criar pasta public => criar arquivo index.html  //
+src => criar calc.js                            //vai ter as funções
+npx webpack                                     //salvar as alterações
+WEBPACK1 => criar arquivo webpack.config.js     //
+npx webpack                                     //salvar as alterações
+src => criar heading.js                         //
+npx webpack                                     //salvar as alterações
+mudar o src do script (index.html) - bundle.js  //
+src => criar pasta components                   //
+mover heading.js => components                  //
+pasta components => criar arquivo heading.css   //
+npm install --save-dev style-loader css-loader  //instalar pacotes para css
+npx webpack                                     //salvar as alterações
+npm install --save-dev mini-css-extract-plugin  //instalar pacote para css
+npm install --save-dev html-webpack-plugin      //instalar pacote
+adicionar "build": "webpack" em packege.json    //muda o npx webpack
+novo comando para o build => npm run build      //
+npm install --save-dev-server                   //atualiza o cogigo alterado automatico
+npm run build                                   //
+npm run dev                                     //

@@ -1,0 +1,13 @@
+git init
+git status
+git comit -a -m "Primeiro commit"
+git status
+//comandos do git
+git remote add origin https://github.com/dudaquebratudo123/webpack.git
+git status
+git branch -M main
+git status
+git push -u origin main
+//add
+git add .
+git status
